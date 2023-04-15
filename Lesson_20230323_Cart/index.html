@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Banane Shop</h1>
+            <p>Cumpără banane acum! Cu livrare acasă</p>
+        </div>
+        <main>
+            <div class="filters">
+                <select id="size">
+                    <option value="mici">Mici</option>
+                    <option value="mari">Mari</option>
+                </select>
+                <select id="sort">
+                    <option value="ASC">Mic -> Mare</option>
+                    <option value="DESC">Mare -> Mic</option>
+                </select>
+                <button id="reset">Reset</button>
+            </div>
+            <div id="products"></div>
+        </main>
+        <div id="cart">
+            
+        </div>
+        <div id="cart-btn">
+            <img src="images/cart.png" />
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

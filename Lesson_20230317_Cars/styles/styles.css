@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.cars{
+    text-align: center;
+}
+
+.cars img{
+    width: 150px;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+.app{
+    height: 100vh;
+} */
+
+#hamburger{
+    background-color: grey;
+    width: 300px;
+    height: auto;
+}
+
+#btn{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.line{
+    height: 3.5px;
+    width: 30px;
+    background-color: white;    
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+
+#menu{
+    background-color: green;    
+    transition-duration: 0.5s;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.open-menu .line:nth-child(2){
+    display: none;
+}
+.open-menu .line:nth-child(1){
+    position: relative;
+    transform: rotate(45deg);
+    top: 4px;
+}
+.open-menu .line:nth-child(3){
+    position: relative;
+    transform: rotate(-45deg);
+    bottom: 4px;
+}

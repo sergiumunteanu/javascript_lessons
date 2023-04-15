@@ -1,0 +1,19 @@
+#content{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.user{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	gap: 10px;
+	width: 100%;
+}

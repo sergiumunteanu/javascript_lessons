@@ -1,0 +1,30 @@
+.table table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table table td, .table table th{
+    padding: 5px;
+    border: 1px solid black;
+}
+.table table th{
+    text-align: left;
+}
+.table table th select{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+}
+
+.table table th input{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+}
+.table table td{
+    text-align: center;
+}
+
+.table table td img{
+    height: 40px;
+}
